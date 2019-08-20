@@ -1,0 +1,14 @@
+@import '../../css/units.css';
+
+.code-wrapper {
+    height: 100%;
+}
+
+.code-menu-wrapper {
+
+}
+
+.code-editor-wrapper {
+    position: relative;
+    height: calc(100% - $stage-menu-height);
+}

@@ -1,0 +1,38 @@
+@import "../../css/units.css";
+@import "../../css/colors.css";
+
+.container {
+    flex-shrink: 1;
+    position: relative;
+    font-size: 0.85rem;
+}
+
+.header {
+    margin-top: 0.5rem;
+    border: 1px solid $ui-black-transparent;
+    background: $ui-white;
+    padding: 0.25rem;
+    text-align: center;
+    color: $text-primary;
+    transition: 0.2s;
+    cursor: pointer;
+    user-select: none;
+}
+
+[dir="ltr"] .header {
+    border-top-right-radius: $space;
+}
+
+[dir="rtl"] .header {
+    border-top-left-radius: $space;
+}
+
+.info {
+    background: $ui-white;
+    color: #FF8C1A;
+    padding: 0.25rem;
+    border-right: 1px solid $ui-black-transparent;
+    min-height: 5.5rem;
+    line-height: 1rem;
+    cursor: text;
+}
