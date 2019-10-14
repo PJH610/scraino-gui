@@ -88,9 +88,7 @@ ScanningStep.propTypes = {
     onConnecting: PropTypes.func,
     onRefresh: PropTypes.func,
     peripheralList: PropTypes.arrayOf(PropTypes.shape({
-        name: PropTypes.string,
-        rssi: PropTypes.number,
-        peripheralId: PropTypes.string
+        name: PropTypes.string
     })),
     scanning: PropTypes.bool.isRequired
 };

@@ -119,7 +119,7 @@ import pongResetScore from './steps/pong-reset-score.en.png';
 import pongAddLineSprite from './steps/pong-add-line.en.gif';
 import pongGameOver from './steps/pong-game-over.en.png';
 
-// Imagine If
+// Imagine a World
 import imagineTypeWhatYouWant from './steps/imagine-type-what-you-want.en.png';
 import imagineClickGreenFlag from './steps/imagine-click-green-flag.en.png';
 import imagineChooseBackdrop from './steps/imagine-choose-backdrop.en.png';
@@ -276,7 +276,7 @@ const enImages = {
     flyAddScenery: flyAddScenery,
     flyMoveScenery: flyMoveScenery,
     flySwitchLooks: flySwitchLooks,
-    
+
     // Pong
     pongAddBackdrop: pongAddBackdrop,
     pongAddBallSprite: pongAddBallSprite,
@@ -291,8 +291,8 @@ const enImages = {
     pongResetScore: pongResetScore,
     pongAddLineSprite: pongAddLineSprite,
     pongGameOver: pongGameOver,
-    
-    // Imagine If
+
+    // Imagine a World
     imagineTypeWhatYouWant: imagineTypeWhatYouWant,
     imagineClickGreenFlag: imagineClickGreenFlag,
     imagineChooseBackdrop: imagineChooseBackdrop,
@@ -308,26 +308,26 @@ const enImages = {
     imagineSwitchBackdrops: imagineSwitchBackdrops,
     imagineRecordASound: imagineRecordASound,
     imagineChooseSound: imagineChooseSound,
-    
+
     // Add a Backdrop
     addBackdrop: addBackdrop,
-    
+
     // Add Effects
     addEffects: addEffects,
-    
+
     // Hide and Show
     hideAndShow: hideAndShow,
-    
+
     // Switch Costumes
     switchCostumes: switchCostumes,
-    
+
     // Change Size
     changeSize: changeSize,
-    
+
     // Spin
     spinTurn: spinTurn,
     spinPointInDirection: spinPointInDirection,
-    
+
     // Record a Sound
     recordASoundSoundsTab: recordASoundSoundsTab,
     recordASoundClickRecord: recordASoundClickRecord,
@@ -342,7 +342,7 @@ const enImages = {
     // Glide Around
     glideAroundBackAndForth: glideAroundBackAndForth,
     glideAroundPoint: glideAroundPoint
-    
+
 };
 
 
